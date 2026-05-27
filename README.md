@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](https://github.com/)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/lirikbar?style=social)](https://github.com/YOUR_USERNAME/lirikbar/stargazers)
+[![Stars](https://img.shields.io/github/stars/biru25/lirikbar?style=social)](https://github.com/biru25/lirikbar/stargazers)
 
 Aplikasi desktop ringan untuk **memutar musik sambil menampilkan lirik secara real-time** di floating bar yang bisa kamu taruh tepat di atas taskbar (Windows) atau di mana saja di desktop.
 
@@ -219,39 +219,24 @@ Selamat menikmati musik + lirik dari YouTube, Spotify link, atau file lokal! ðŸŽ
 ### Menjalankan dari Source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lirikbar.git
+git clone https://github.com/biru25/lirikbar.git
 cd lirikbar
 pip install -r requirements.txt
 python main.py
 ```
 
-### Push ke Repository Git Kamu Sendiri
+### Development
+
+Jika kamu ingin fork dan mengembangkan proyek ini:
 
 ```bash
-# Di dalam folder lirikbar
-git init
-git add .
-git commit -m "Initial commit: LirikBar with YouTube/Spotify search + streaming"
-
-# Hubungkan ke repo baru kamu di GitHub
-git remote add origin https://github.com/YOUR_USERNAME/lirikbar.git
-git branch -M main
-git push -u origin main
+git clone https://github.com/biru25/lirikbar.git
+cd lirikbar
+pip install -r requirements.txt
+python main.py
 ```
 
-Jangan lupa buat repository baru di GitHub terlebih dahulu.
-
-### Setelah Push (Update Badge)
-
-Setelah berhasil push ke GitHub, buka file `README.md` dan ganti semua kata `YOUR_USERNAME` menjadi username GitHub kamu. Setelah itu commit ulang:
-
-```bash
-git add README.md
-git commit -m "docs: update GitHub username in badges"
-git push
-```
-
-Badge (License, Stars, dll) akan langsung aktif setelah itu.
+Lihat [CONTRIBUTING.md](CONTRIBUTING.md) (akan ditambahkan) untuk panduan kontribusi.
 
 ### Struktur Project
 
