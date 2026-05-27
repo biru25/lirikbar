@@ -1,0 +1,6 @@
+pygame>=2.5.0
+mutagen>=1.47.0
+Pillow>=10.0.0
+requests>=2.31.0
+pystray>=0.19.5
+yt-dlp>=2025.1.0

@@ -1,0 +1,21 @@
+feat: Rilis publik pertama LirikBar 🎵
+
+LirikBar adalah aplikasi pemutar musik desktop yang ringan dan menampilkan lirik secara real-time melalui floating bar yang bisa ditempel tepat di atas taskbar.
+
+### Fitur Utama
+- Floating Lyrics Bar yang selalu berada di atas (sangat cocok untuk ditempel di taskbar)
+- Pencarian lagu langsung dari YouTube dan Spotify di dalam aplikasi
+- Streaming audio dari YouTube & Spotify dengan sistem cache yang pintar
+- Dukungan dua sumber lirik: LRCLIB (lirik tersinkron terbaik) + Musixmatch
+- Tampilan gelap modern, system tray, dan shortcut keyboard lengkap
+- Deteksi otomatis file .lrc serta pengambilan lirik secara online
+
+### Aspek Teknis
+- Dibangun murni menggunakan Python + Tkinter (ringan, tidak menggunakan Electron)
+- Menggunakan yt-dlp untuk streaming YouTube dan Spotify
+- Arsitektur bersih dengan lyrics provider yang mudah dikembangkan
+- Playlist dan pengaturan disimpan secara otomatis
+
+Ini merupakan versi publik pertama yang stabil.
+
+Closes #1 (rilis awal)
